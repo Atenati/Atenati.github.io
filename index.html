@@ -2,24 +2,43 @@
   <head>
     <title>cool website</title>
     <style>
-      h1 {
+      .first h1 {
         color: lightgreen;
       }
-      p {
+      .first p {
        color: salmon; 
       }
       html {
        background-color: gray; 
       }
-      .content {
-        margin: 0 auto;
+      .first {
+        text-align: center;
+        padding-bottom: 100px;
+      }
+      .second {
+        display: flex;
+        justify-content: center;
+      }
+      .second h2 {
+        color: powderblue;
+      }
+      .second p {
+        color: orchid;
       }
     </style>
   </head>
   <body>
-    <div class="content">
+    <div class="first">
       <h1>Atenati's website!</h1>
       <p>This is a paragraph</p>
-    </div> 
+    </div>
+    <div class="second">
+      <h2>
+        This had better be centered
+      </h2>
+      <p>
+        The content I'm talking about
+      </p>
+    </div>
   </body>
 </html>
