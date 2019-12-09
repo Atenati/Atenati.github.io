@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: snow;
+}
+
+body {
+    height: 100vh;
+    background: #333;
+    color: #fff;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.content-wrapper {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    /*scroll-snap-type: y mandatory;*/
+    overflow-y: hidden;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    /*scroll-snap-align: start;*/
+}
+
+#row-number-1 #s1-titlecontent {
+    cursor: default;
+    padding-top: 70px;
+    padding-left: 40px;
+    position: relative;
+}
+
+#row-number-1 #s1-titlecontent h1 {
+    font-size: 6rem;
+    letter-spacing: 10px;
+    transition: all 0.2s ease-in-out;
+    width: 1100px;
+}
+
+#row-number-1 #s1-titlecontent p {
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+    font-size: 25pt;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+}
+
+#row-number-1 #s1-titlecontent p:hover {
+
+    text-shadow: -3px -3px 0px rgba(255, 17, 100, 1);
+}
+
+#row-number-1 #s1-titlecontent h1:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    letter-spacing: 20px;
+    font-size: 6.5rem;
+}
+
+#row-number-1 {
+    background: linear-gradient(#f50d2c, #fff7f0);
+}
+
+.titlecontent {
+    cursor: default;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-size: 25pt;
+}
+
+.titlecontent p {
+    font-size: 15pt;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+ }
+
+/*.titlecontent p:hover {*/
+/*    font-size: 16pt;*/
+/*    opacity: 1;*/
+/*    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);*/
+/*}*/
+
+.titlecontent p {
+    position: relative;
+    top: -30px;
+}
+
+.titlecontent h1, .titlecontent p {
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.titlecontent h1:hover{
+    letter-spacing: 10px;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+}
+
+.titlecontent h1:hover + p {
+    opacity: 1;
+    top: 1px;
+}
+
+#row-number-2 {
+    background: linear-gradient(#fff7f0, #6dc7ed);
+}
+
+#row-number-3 {
+    background: linear-gradient(#6dc7ed, #cade9b);
+}
+
+#row-number-4 {
+    background: linear-gradient(#cade9b, #fff7f0);
+}
+
+#row-number-5 {
+    background: linear-gradient(#fff7f0, #90caaa);
+}
+
+#row-number-5 #s5-titlecontent {
+
+}
+
+#row-number-6 {
+    background: linear-gradient(#90caaa, #ffffff);
+}
