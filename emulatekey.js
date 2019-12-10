@@ -72,3 +72,9 @@ document.getElementById('btn3').addEventListener('click', btn3func, false);
 document.getElementById('btn4').addEventListener('click', btn4func, false);
 document.getElementById('btn5').addEventListener('click', btn5func, false);
 document.getElementById('btn6').addEventListener('click', btn6func, false);
+
+document.getElementById('imgbtn1').addEventListener('click', btn2func, false);
+document.getElementById('imgbtn2').addEventListener('click', btn3func, false);
+document.getElementById('imgbtn3').addEventListener('click', btn4func, false);
+document.getElementById('imgbtn4').addEventListener('click', btn5func, false);
+document.getElementById('imgbtn5').addEventListener('click', btn6func, false);
