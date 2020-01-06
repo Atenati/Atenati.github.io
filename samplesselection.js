@@ -5,7 +5,7 @@ function PythonBTNClick() {
     document.getElementById('PythonBTN').style.backgroundColor = 'gray';
     img.src = 'images/python.png';
     anchor.target = '_blank';
-    anchor.href = 'images/python.png';
+    anchor.href = 'images/python.PNG';
 }
 
 function PythonBTNRelease() {
@@ -18,16 +18,16 @@ function JavaBTNClick() {
 
 function JavaBTNRelease() {
     document.getElementById('JavaBTN').style.backgroundColor = 'black';
-    img.src = 'images/java.png';
+    img.src = 'images/java.PNG';
     anchor.target = '_blank';
-    anchor.href = 'images/java.png';
+    anchor.href = 'images/java.PNG';
 }
 
 function NetworkingBTNClick() {
     document.getElementById('NetworkingBTN').style.backgroundColor = 'gray';
-    img.src = 'images/Networking-Image.jpg';
+    img.src = 'images/Networking-Image.JPG';
     anchor.target = '_blank';
-    anchor.href = 'images/Networking-Image.jpg';
+    anchor.href = 'images/Networking-Image.JPG';
 }
 
 function NetworkingBTNRelease() {
@@ -36,9 +36,9 @@ function NetworkingBTNRelease() {
 
 function DatabaseBTNClick() {
     document.getElementById('DatabaseBTN').style.backgroundColor = 'gray';
-    img.src = 'images/database.png';
+    img.src = 'images/database.PNG';
     anchor.target = '_blank';
-    anchor.href = 'images/database.png';
+    anchor.href = 'images/database.PNG';
 }
 
 function DatabaseBTNRelease() {
@@ -47,8 +47,8 @@ function DatabaseBTNRelease() {
 
 function WebsiteBTNClick() {
     document.getElementById('WebsiteBTN').style.backgroundColor = 'gray';
-    img.src = 'images/Website-Image.jpg';
-    anchor.href = 'images/Website-Image.jpg';
+    img.src = 'images/Website-Image.JPG';
+    anchor.href = 'images/Website-Image.JPG';
     anchor.target = '_blank'
 
 }
