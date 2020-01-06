@@ -25,10 +25,9 @@ function JavaBTNRelease() {
 
 function NetworkingBTNClick() {
     document.getElementById('NetworkingBTN').style.backgroundColor = 'gray';
-    img.src = 'Atenati.github.io/images/Networking-Image.JPG';
+    img.src = 'images/Networking-Image.JPG';
     anchor.target = '_blank';
-    anchor.href = 'Atenati.github.io/images/Networking-Image.JPG';
-    console.log('clicked networking.JPG');
+    anchor.href = 'images/Networking-Image.JPG';
 }
 
 function NetworkingBTNRelease() {
