@@ -3,9 +3,9 @@ let anchor = document.getElementById('hreference');
 
 function PythonBTNClick() {
     document.getElementById('PythonBTN').style.backgroundColor = 'gray';
-    img.src = 'Atenati.github.io/images/python.png';
+    img.src = 'images/python.PNG';
     anchor.target = '_blank';
-    anchor.href = 'Atenati.github.io/images/python.PNG';
+    anchor.href = 'images/python.PNG';
 }
 
 function PythonBTNRelease() {
@@ -18,9 +18,9 @@ function JavaBTNClick() {
 
 function JavaBTNRelease() {
     document.getElementById('JavaBTN').style.backgroundColor = 'black';
-    img.src = 'Atenati.github.io/images/java.PNG';
+    img.src = 'images/java.PNG';
     anchor.target = '_blank';
-    anchor.href = 'Atenati.github.io/images/java.PNG';
+    anchor.href = 'images/java.PNG';
 }
 
 function NetworkingBTNClick() {
@@ -28,6 +28,7 @@ function NetworkingBTNClick() {
     img.src = 'Atenati.github.io/images/Networking-Image.JPG';
     anchor.target = '_blank';
     anchor.href = 'Atenati.github.io/images/Networking-Image.JPG';
+    console.log('clicked networking.JPG');
 }
 
 function NetworkingBTNRelease() {
@@ -36,9 +37,9 @@ function NetworkingBTNRelease() {
 
 function DatabaseBTNClick() {
     document.getElementById('DatabaseBTN').style.backgroundColor = 'gray';
-    img.src = 'Atenati.github.io/images/database.PNG';
+    img.src = 'images/database.PNG';
     anchor.target = '_blank';
-    anchor.href = 'Atenati.github.io/images/database.PNG';
+    anchor.href = 'images/database.PNG';
 }
 
 function DatabaseBTNRelease() {
@@ -47,8 +48,8 @@ function DatabaseBTNRelease() {
 
 function WebsiteBTNClick() {
     document.getElementById('WebsiteBTN').style.backgroundColor = 'gray';
-    img.src = 'Atenati.github.io/images/Website-Image.JPG';
-    anchor.href = 'Atenati.github.io/images/Website-Image.JPG';
+    img.src = 'images/Website-Image.JPG';
+    anchor.href = 'images/Website-Image.JPG';
     anchor.target = '_blank'
 
 }
