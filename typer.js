@@ -4,7 +4,7 @@
 // Date: December 10, 2019
 
 let i = 0;
-let tofill = 'IT Programming student living in Halifax Nova Scotia';
+let tofill = 'IT Programmer living in Halifax Nova Scotia';
 doc = document.getElementById('typer');
 let spd = 35;
 
