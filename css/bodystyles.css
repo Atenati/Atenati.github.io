@@ -34,6 +34,7 @@ html, body {
     max-height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 
     -ms-overflow-style: none; /* for internet explorer and edge */
     scrollbar-width: none; /* for firefox */
