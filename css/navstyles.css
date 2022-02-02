@@ -2,16 +2,16 @@
     navstyles.css
     Navigation menu styles
     Author: Atenati Weber-Morrison
-    Date: December 10, 2019
+    Updated: Jan 2, 2022
  */
 
 @media screen and (max-width: 480px) {
-    .content-wrapper #row-number-1 #s1-titlecontent h1 {
+    .content-wrapper #Home #s1-titlecontent h1 {
         font-size: 15px;
         width: 400px;
         letter-spacing: 0px;
     }
-    .content-wrapper #row-number-1 #s1-titlecontent #typer-background p {
+    .content-wrapper #Home #s1-titlecontent #typer-background p {
         font-size: 20px;
         width: 400px;
         padding-left: 0px;
@@ -24,11 +24,11 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .content-wrapper #row-number-1 #s1-titlecontent h1 {
+    .content-wrapper #Home #s1-titlecontent h1 {
         font-size: 60px;
         width: 800px;
     }
-    .content-wrapper #row-number-1 #s1-titlecontent #typer-background p {
+    .content-wrapper #Home #s1-titlecontent #typer-background p {
         font-size: 15px;
         width: 350px;
     }
@@ -36,22 +36,22 @@
 
 /* Work Samples Media Queries */
 @media screen and (max-width: 1280px) {
-    .content-wrapper #row-number-3 #r3-contentleft {
+    .content-wrapper #Work\ Samples #r3-contentleft {
         margin-left: 15%;
         margin-right: 0px;
     }
-    .content-wrapper #row-number-3 #r3-contentright img {
+    .content-wrapper #Work\ Samples #r3-contentright img {
         width: 500px;
         margin-left: 0px;
     }
 }
 
 @media screen and (max-width: 920px) {
-    .content-wrapper #row-number-3 #r3-contentleft {
+    .content-wrapper #Work\ Samples #r3-contentleft {
         margin-left: 0px;
         margin-right: 0px;
     }
-    .content-wrapper #row-number-3 #r3-contentright img {
+    .content-wrapper #Work\ Samples #r3-contentright img {
         width: 500px;
         margin-left: 0px;
     }
@@ -59,16 +59,16 @@
 
 /* Resume Media Queries */
 @media screen and (max-height: 900px) {
-    .content-wrapper #row-number-5 .r5content a img {
+    .content-wrapper #Resume .r5content a img {
         width: 300px;
     }
 }
 
 @media screen and (max-height: 720px) {
-    .content-wrapper #row-number-5 .r5content a img {
+    .content-wrapper #Resume .r5content a img {
         width: 200px;
     }
-    .content-wrapper #row-number-3 #r3-contentright img {
+    .content-wrapper #Work\ Samples #r3-contentright img {
          width: 400px;
          margin-left: 0px;
      }

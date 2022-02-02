@@ -2,7 +2,7 @@
     bodystyles.css
     Pages Styles
     Author: Atenati Weber-Morrison
-    Date: December 10, 2019
+    Updated: Jan 2, 2022
 */
 
 * {
@@ -13,30 +13,47 @@
 }
 
 body {
+    overflow: hidden;
     height: 100vh;
     background: black;
     color: #fff;
     line-height: 1.6;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
 .content-wrapper {
-    width: 100%;
-    height: 100%;
-    scroll-behavior: smooth;
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+
+    -ms-overflow-style: none; /* for internet explorer and edge */
+    scrollbar-width: none; /* for firefox */
+
+    /* width: 100%; */
+    /* height: 100%; */
+    /* scroll-behavior: smooth; */
     /*scroll-snap-type: y mandatory;*/
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
+}
+
+.content-wrapper::-webkit-scrollbar {
+    display: none; /* for chrome safari and opera */
 }
 
 .section {
     width: 100%;
     height: 100vh;
-    /*scroll-snap-align: start;*/
+    scroll-snap-align: start;
 }
 
 /* DOWN ARROW STYLES */
@@ -70,14 +87,14 @@ body {
 
 /* ROW NUMBER - 1 */
 /* PAGE NUMBER - 1 */
-#row-number-1 #s1-titlecontent {
+#Home #s1-titlecontent {
     cursor: default;
     padding-top: 70px;
     padding-left: 40px;
     position: relative;
 }
 
-#row-number-1 #s1-titlecontent h1 {
+#Home #s1-titlecontent h1 {
     font-family: Consolas, 'serif';
     font-size: 6rem;
     letter-spacing: 10px;
@@ -104,13 +121,13 @@ body {
 }
 
 
-#row-number-1 #s1-titlecontent h1:hover {
+#Home #s1-titlecontent h1:hover {
     text-shadow: 0 0 6px rgba(255, 255, 255, 1);
     letter-spacing: 20px;
     font-size: 6.5rem;
 }
 
-#row-number-1 {
+#Home {
     /*background: linear-gradient(#000000, #fff7f0);*/
     background-color: black;
 }
@@ -154,7 +171,7 @@ body {
 
 /* ROW NUMBER - 2 */
 /* PAGE NUMBER - 2 */
-#row-number-2 #r2-contentleft {
+#Skills #r2-contentleft {
     transition: all 0.5s ease-in-out;
     float: left;
     margin-top: 90px;
@@ -164,7 +181,7 @@ body {
     height: 50%;
 }
 
-#row-number-2 #r2-contentright {
+#Skills #r2-contentright {
     transition: all 0.5s ease-in-out;
     float: right;
     margin-top: 90px;
@@ -174,7 +191,7 @@ body {
     height: 50%;
 }
 
-#row-number-2 #r2-contentleft ul {
+#Skills #r2-contentleft ul {
     cursor: default;
     float: right;
     font-size: 30pt;
@@ -186,7 +203,7 @@ body {
     height: 100%;
 }
 
-#row-number-2 #r2-contentright ul {
+#Skills #r2-contentright ul {
     cursor: default;
     float: left;
     font-size: 15pt;
@@ -198,12 +215,12 @@ body {
     height: 100%;
 }
 
-#row-number-2 #r2-contentleft ul li:hover {
+#Skills #r2-contentleft ul li:hover {
     text-shadow: 0 0 14px white;
     box-shadow: 0 0 14px white;
 }
 
-#row-number-2 #r2-contentleft ul li {
+#Skills #r2-contentleft ul li {
     transition: all 0.3s ease-in-out;
     width: 500px;
     border: 1px solid white;
@@ -211,7 +228,7 @@ body {
     text-align: center;
 }
 
-#row-number-2 #r2-contentright ul li {
+#Skills #r2-contentright ul li {
     transition: all 0.2s ease-in-out;
     width: 500px;
     margin-bottom: 10px;
@@ -221,7 +238,7 @@ body {
 
 /* ROW NUMBER - 3 */
 /* PAGE NUMBER - 3 */
-#row-number-3 #r3-contentleft {
+#Work\ Samples #r3-contentleft {
     transition: all 0.1s ease-in-out;
     float: left;
     margin-top: 90px;
@@ -231,7 +248,7 @@ body {
     height: 50%;
 }
 
-#row-number-3 #r3-contentleft ul {
+#Work\ Samples #r3-contentleft ul {
     cursor: default;
     float: right;
     font-size: 20pt;
@@ -242,12 +259,12 @@ body {
     /*height: 100%;*/
 }
 
-#row-number-3 #r3-contentleft ul li:hover {
+#Work\ Samples #r3-contentleft ul li:hover {
     text-shadow: 0 0 14px white;
     box-shadow: 0 0 14px white;
 }
 
-#row-number-3 #r3-contentleft ul li {
+#Work\ Samples #r3-contentleft ul li {
     transition: all 0.1s ease-in-out;
     width: 200px;
     border: 1px solid white;
@@ -255,7 +272,7 @@ body {
     text-align: center;
 }
 
-#row-number-3 #r3-contentright img {
+#Work\ Samples #r3-contentright img {
     margin-top: 90px;
     margin-left: 90px;
     width: 700px;
@@ -264,7 +281,7 @@ body {
     scale: 1;
 }
 
-#row-number-3 #r3-contentright img:hover {
+#Work\ Samples #r3-contentright img:hover {
     box-shadow: 0 0 23px 6px rgba(255, 255, 255, 1);
     transform: scale(1.05);
 }
@@ -302,11 +319,11 @@ body {
 
 /* ROW NUMBER - 5 */
 /* PAGE NUMBER - 5 */
-#row-number-5 .r5content a {
+#Resume .r5content a {
     cursor: default;
 }
 
-#row-number-5 img {
+#Resume img {
     cursor: zoom-in;
     filter: blur(5px);
     transition: 0.2s;
@@ -319,7 +336,7 @@ body {
     margin-right: auto;
 }
 
-#row-number-5 img:hover {
+#Resume img:hover {
     filter: blur(0px);
     box-shadow: 0 0 23px 13px rgba(255, 255, 255, 1);
     transform: scale(1.1);
@@ -327,7 +344,7 @@ body {
 
 /* ROW NUMBER - 6 */
 /* PAGE NUMBER - 6 */
-#row-number-6 .r6content {
+#Contact .r6content {
     padding-top: 12%;
     margin-left: 3%;
     display: flex;

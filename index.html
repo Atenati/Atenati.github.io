@@ -6,128 +6,135 @@
     <title>Atenati Portfolio</title>
     <link href="css/bodystyles.css" rel="stylesheet">
     <link href="css/navstyles.css" rel="stylesheet">
+
+    <script src="js/emulatekey.js" async></script>
+    <script src="js/typer.js" async></script>
+    <script src="js/listhover.js" async></script>
+    <script src="js/samplesselection.js" async></script>
+    <script src="js/scroller.js" async></script>
+
 </head>
+
 <body>
-<div class="content-wrapper">
-    <nav class="nav">
-        <ul>
-            <li><a href="#row-number-1" id="btn1">Home</a></li>
-            <li><a href="#row-number-2" id="btn2">Skills</a></li>
-            <li><a href="#row-number-3" id="btn3">Work Samples</a></li>
-            <li><a href="#row-number-4" id="btn4">Goals</a></li>
-            <li><a href="#row-number-5" id="btn5">Resume</a></li>
-            <li><a href="#row-number-6" id="btn6">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="section" id="row-number-1">
-        <section id="s1-titlecontent">
-            <h1>Atenati <br>Weber-Morrison</h1>
-            <div id="typer-background">
-                <p id="typer"></p>
-            </div>
-        </section>
-        <a>
-            <img class="downarrow" id="imgbtn" src="images/downarrow.png" alt="MissingImage">
-            <p id="next">Home</p>
-        </a>
-    </div>
-    <div class="section" id="row-number-2">
-        <section class="titlecontent">
-            <h1>Skills</h1>
-            <p>What I can do for you</p>
-        </section>
-        <div id="r2-contentleft">
+    <header>
+        <nav class="nav">
             <ul>
-                <li onmouseover="hover_li_1()" onmouseout="off_li_1()">Python</li>
-                <li onmouseover="hover_li_2()" onmouseout="off_li_2()">Java</li>
-                <li onmouseover="hover_li_3()" onmouseout="off_li_3()">HTML & CSS</li>
-                <li onmouseover="hover_li_4()" onmouseout="off_li_4()">Javascript</li>
-                <li onmouseover="hover_li_5()" onmouseout="off_li_5()">Database</li>
+                <li><a href="#Home" id="btn1">Home</a></li>
+                <li><a href="#Skills" id="btn2">Skills</a></li>
+                <li><a href="#Work Samples" id="btn3">Work Samples</a></li>
+                <li><a href="#Goals" id="btn4">Goals</a></li>
+                <li><a href="#Resume" id="btn5">Resume</a></li>
+                <li><a href="#Contact" id="btn6">Contact</a></li>
             </ul>
-        </div>
-        <div id="r2-contentright">
-            <ul>
-                <li id="i1">GUI, File IO, Functions, Loops</li>
-                <li id="i2">Binary Sort, Objects, Threads, Recursion</li>
-                <li id="i3">Layouts, Transitions, Media Queries, Shadows</li>
-                <li id="i4">Scrolling, Animating, Objects, DOM Methods</li>
-                <li id="i5">Design & Queries of SQL and NoSQL</li>
-            </ul>
-        </div>
-    </div>
-    <div class="section" id="row-number-3">
-        <section class="titlecontent">
-            <h1>Work Samples</h1>
-            <p>What I've Done</p>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <section class="section" id="Home">
+            <section id="s1-titlecontent">
+                <h1>Atenati <br>Weber-Morrison</h1>
+                <div id="typer-background">
+                    <p id="typer"></p>
+                </div>
+            </section>
+            <!-- <a>
+                <img class="downarrow" id="imgbtn" src="images/downarrow.png" alt="MissingImage">
+                <p id="next">Home</p>
+            </a> -->
         </section>
-        <div id="r3-contentleft">
-            <ul>
-                <li id="PythonBTN" onmousedown="PythonBTNClick()" onmouseup="PythonBTNRelease()">Python</li>
-                <li id="WebsiteBTN" onmousedown="WebsiteBTNClick()" onmouseup="WebsiteBTNRelease()">Website</li>
-                <li id="JavaBTN" onmousedown="JavaBTNClick()" onmouseup="JavaBTNRelease()">Java</li>
-                <li id="NetworkingBTN" onmousedown="NetworkingBTNClick()" onmouseup="NetworkingBTNRelease()">Networking</li>
-                <li id="DatabaseBTN" onmousedown="DatabaseBTNClick()" onmouseup="DatabaseBTNRelease()">Database</li>
-            </ul>
-        </div>
-        <div id="r3-contentright">
-            <a id="hreference" href="images/java.PNG" target="_blank"><img id="image" src="images/java.PNG" alt="MissingTexture"></a>
-        </div>
-    </div>
-    <div class="section" id="row-number-4">
-        <section class="titlecontent">
-            <h1>Goals</h1>
-            <p>More of What Will Happen</p>
+        <section class="section" id="Skills">
+            <section class="titlecontent">
+                <h1>Skills</h1>
+                <p>What I can do for you</p>
+            </section>
+            <div id="r2-contentleft">
+                <ul>
+                    <li onmouseover="hover_li_1()" onmouseout="off_li_1()">Python</li>
+                    <li onmouseover="hover_li_2()" onmouseout="off_li_2()">Java</li>
+                    <li onmouseover="hover_li_3()" onmouseout="off_li_3()">HTML & CSS</li>
+                    <li onmouseover="hover_li_4()" onmouseout="off_li_4()">Javascript</li>
+                    <li onmouseover="hover_li_5()" onmouseout="off_li_5()">Database</li>
+                </ul>
+            </div>
+            <div id="r2-contentright">
+                <ul>
+                    <li id="i1">GUI, File IO, Functions, Loops</li>
+                    <li id="i2">Binary Sort, Objects, Threads, Recursion</li>
+                    <li id="i3">Layouts, Transitions, Media Queries, Shadows</li>
+                    <li id="i4">Scrolling, Animating, Objects, DOM Methods</li>
+                    <li id="i5">Design & Queries of SQL and NoSQL</li>
+                </ul>
+            </div>
         </section>
-        <div class="bodycontent">
-            <div class="goal" id="g1">
-                <p>Finish Snake in Javascript (<a href="https://maxjklo9.github.io" target="_blank">Almost There</a>)</p>
+        <section class="section" id="Work Samples">
+            <section class="titlecontent">
+                <h1>Work Samples</h1>
+                <p>What I've Done</p>
+            </section>
+            <div id="r3-contentleft">
+                <ul>
+                    <li id="PythonBTN" onmousedown="PythonBTNClick()" onmouseup="PythonBTNRelease()">Python</li>
+                    <li id="WebsiteBTN" onmousedown="WebsiteBTNClick()" onmouseup="WebsiteBTNRelease()">Website</li>
+                    <li id="JavaBTN" onmousedown="JavaBTNClick()" onmouseup="JavaBTNRelease()">Java</li>
+                    <li id="NetworkingBTN" onmousedown="NetworkingBTNClick()" onmouseup="NetworkingBTNRelease()">Networking</li>
+                    <li id="DatabaseBTN" onmousedown="DatabaseBTNClick()" onmouseup="DatabaseBTNRelease()">Database</li>
+                </ul>
             </div>
-            <div class="goal" id="g4">
-                <p>Continue Learning to Develop Mobile Apps</p>
+            <div id="r3-contentright">
+                <a id="hreference" href="images/java.PNG" target="_blank"><img id="image" src="images/java.PNG" alt="MissingTexture"></a>
             </div>
-            <div class="goal" id="g6">
-                <p>Continue Learning C#</p>
-            </div>
-            <div class="goal" id="g7">
-                <p>Learn JQuery</p>
-            </div>
-            <div class="goal" id="g8">
-                <p>Learn Angular</p>
-            </div>
-            <div class="goal" id="g9">
-                <p>Learn React</p>
-            </div>
-        </div>
-    </div>
-    <div class="section" id="row-number-5">
-        <section class="titlecontent">
-            <h1 id="resume">Resume</h1>
-            <p>2550x3300!</p>
         </section>
-        <div class="r5content">
-            <a href="images/resume.png" target="_blank"><img src="images/resume.png" alt="MissingTexture"></a>
-        </div>
-    </div>
-    <div class="section" id="row-number-6">
-        <section class="titlecontent">
-            <h1>Contact Me</h1>
-            <p>Say Hi!</p>
+        <section class="section" id="Goals">
+            <section class="titlecontent">
+                <h1>Goals</h1>
+                <p>More of What Will Happen</p>
+            </section>
+            <div class="bodycontent">
+                <div class="goal" id="g1">
+                    <p>Finish Snake in Javascript (<a href="https://maxjklo9.github.io" target="_blank">Almost There</a>)</p>
+                </div>
+                <div class="goal" id="g4">
+                    <p>Continue Learning to Develop Mobile Apps</p>
+                </div>
+                <div class="goal" id="g6">
+                    <p>Continue Learning C#</p>
+                </div>
+                <div class="goal" id="g7">
+                    <p>Learn JQuery</p>
+                </div>
+                <div class="goal" id="g8">
+                    <p>Learn Angular</p>
+                </div>
+                <div class="goal" id="g9">
+                    <p>Learn React</p>
+                </div>
+            </div>
         </section>
-        <div class="r6content">
-            <div id="email">
-                <a href="mailto:atenati.wm@gmail.com" target="_blank">atenati.wm@gmail.com</a>
-                <img src="images/gmail.png" alt="MissingTexture">
+        <section class="section" id="Resume">
+            <section class="titlecontent">
+                <h1 id="resume">Resume</h1>
+                <p>2550x3300!</p>
+            </section>
+            <div class="r5content">
+                <a href="images/resume.png" target="_blank"><img src="images/resume.png" alt="MissingTexture"></a>
             </div>
-            <div id="linkedin">
-                <a href="https://ca.linkedin.com/in/atenati-weber-morrison-310055192?trk=people-guest_profile-result-card_result-card_full-click" target="_blank">Linkedin</a>
-                <img src="images/linkedin.png" alt="MissingTexture">
+        </section>
+        <section class="section" id="Contact">
+            <section class="titlecontent">
+                <h1>Contact Me</h1>
+                <p>Say Hi!</p>
+            </section>
+            <div class="r6content">
+                <div id="email">
+                    <a href="mailto:atenati.wm@gmail.com" target="_blank">atenati.wm@gmail.com</a>
+                    <img src="images/gmail.png" alt="MissingTexture">
+                </div>
+                <div id="linkedin">
+                    <a href="https://ca.linkedin.com/in/atenati-weber-morrison-310055192?trk=people-guest_profile-result-card_result-card_full-click" target="_blank">Linkedin</a>
+                    <img src="images/linkedin.png" alt="MissingTexture">
+                </div>
             </div>
-        </div>
+        </section>
     </div>
-</div>
 </body>
-<script src="js/emulatekey.js"></script>
-<script src="js/typer.js"></script>
-<script src="js/listhover.js"></script>
-<script src="js/samplesselection.js"></script>
 </html>
