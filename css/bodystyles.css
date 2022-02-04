@@ -133,7 +133,6 @@ html, body {
     top: 60px;
     text-align: center;
     font-size: 25pt;
-    /*height: 70px;*/
 }
 
 .titlecontent p {
@@ -236,7 +235,7 @@ html, body {
     transition: all 0.1s ease-in-out;
     float: left;
     margin-top: 90px;
-    margin-left: 80px;
+    margin-left: 9%;
     margin-right: 20px;
     width: 30%;
     height: 50%;
@@ -248,9 +247,9 @@ html, body {
     font-size: 20pt;
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
-    /*height: 100%;*/
+    height: 100%;
 }
 
 #Work\ Samples #r3-contentleft ul li:hover {
@@ -266,11 +265,19 @@ html, body {
     text-align: center;
 }
 
+#Work\ Samples #r3-contentright {
+    float: right;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #Work\ Samples #r3-contentright img {
     margin-top: 90px;
     margin-left: 90px;
     width: 700px;
-    max-height: 450px;
+    max-height: 500px;
     transition: all 0.2s ease-in-out;
     scale: 1;
 }
@@ -278,6 +285,11 @@ html, body {
 #Work\ Samples #r3-contentright img:hover {
     box-shadow: 0 0 23px 6px rgba(255, 255, 255, 1);
     transform: scale(1.05);
+}
+
+#Work\ Samples #r3-contentright p {
+    /* margin-left: 90px; */
+    text-align: center;
 }
 
 /* ROW NUMBER - 4 */

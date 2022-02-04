@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta charset="UTF-8">
     <title>Atenati Portfolio</title>
     <link href="css/bodystyles.css" rel="stylesheet">
     <link href="css/navstyles.css" rel="stylesheet">
+    <link href="css/imagegrid.css" rel="stylesheet">
 
     <script src="js/emulatekey.js" async></script>
     <script src="js/typer.js" async></script>
@@ -22,7 +22,6 @@
                 <li><a href="#Home" id="btn1">Home</a></li>
                 <li><a href="#Skills" id="btn2">Skills</a></li>
                 <li><a href="#Work Samples" id="btn3">Work Samples</a></li>
-                <li><a href="#Goals" id="btn4">Goals</a></li>
                 <li><a href="#Resume" id="btn5">Resume</a></li>
                 <li><a href="#Contact" id="btn6">Contact</a></li>
             </ul>
@@ -38,6 +37,7 @@
                 </div>
             </section>
         </section>
+
         <section class="section" id="Skills">
             <section class="titlecontent">
                 <h1>Skills</h1>
@@ -62,50 +62,46 @@
                 </ul>
             </div>
         </section>
-        <section class="section" id="Work Samples">
-            <section class="titlecontent">
-                <h1>Work Samples</h1>
-                <p>What I've Done</p>
-            </section>
-            <div id="r3-contentleft">
-                <ul>
-                    <li id="PythonBTN" onmousedown="PythonBTNClick()" onmouseup="PythonBTNRelease()">Python</li>
-                    <li id="WebsiteBTN" onmousedown="WebsiteBTNClick()" onmouseup="WebsiteBTNRelease()">Website</li>
-                    <li id="JavaBTN" onmousedown="JavaBTNClick()" onmouseup="JavaBTNRelease()">Java</li>
-                    <li id="NetworkingBTN" onmousedown="NetworkingBTNClick()" onmouseup="NetworkingBTNRelease()">Networking</li>
-                    <li id="DatabaseBTN" onmousedown="DatabaseBTNClick()" onmouseup="DatabaseBTNRelease()">Database</li>
-                </ul>
-            </div>
-            <div id="r3-contentright">
-                <a id="hreference" href="images/java.PNG" target="_blank"><img id="image" src="images/java.PNG" alt="MissingTexture"></a>
-            </div>
-        </section>
-        <section class="section" id="Goals">
-            <section class="titlecontent">
-                <h1>Goals</h1>
-                <p>More of What Will Happen</p>
-            </section>
-            <div class="bodycontent">
-                <div class="goal" id="g1">
-                    <p>Finish Snake in Javascript (<a href="https://maxjklo9.github.io" target="_blank">Almost There</a>)</p>
-                </div>
-                <div class="goal" id="g4">
-                    <p>Continue Learning to Develop Mobile Apps</p>
-                </div>
-                <div class="goal" id="g6">
-                    <p>Continue Learning C#</p>
-                </div>
-                <div class="goal" id="g7">
-                    <p>Learn JQuery</p>
-                </div>
-                <div class="goal" id="g8">
-                    <p>Learn Angular</p>
-                </div>
-                <div class="goal" id="g9">
-                    <p>Learn React</p>
+
+        <section class="section section-samples" id="Work Samples">
+            <div class="main">
+                <section class="titlecontent">
+                    <h1>Work Samples</h1>
+                    <p>What I've Done</p>
+                </section>
+                <div class="row">
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/asteroidwebsite.PNG" alt="Asteroids" style="width:100%">
+                            <h3>NEO Website</h3>
+                            <p>This is the asteroid website description</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/busmap.PNG" alt="BusMap" style="width:100%">
+                            <h3>Halifax Bus Map</h3>
+                            <p>This is halifax bus map description</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/java.PNG" alt="Java" style="width:100%">
+                            <h3>Java</h3>
+                            <p>java description</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/python.PNG" alt="Python" style="width:100%">
+                            <h3>Python</h3>
+                            <p>This is python description</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
         <section class="section" id="Resume">
             <section class="titlecontent">
                 <h1 id="resume">Resume</h1>

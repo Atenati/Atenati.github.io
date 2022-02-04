@@ -1,0 +1,48 @@
+.main {
+    box-sizing: border-box;
+    max-width: 1600px;
+    margin:auto;
+}
+
+.row {
+    /* box-sizing: border-box; */
+    margin: 8px -16;
+    margin-top: 5%;
+}
+
+/* add padding inbetween columns */
+.row, .row > column {
+    padding: 8px;
+}
+
+/* 4 equal columns that float next to eachother */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

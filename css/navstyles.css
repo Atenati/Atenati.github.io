@@ -5,7 +5,7 @@
     Updated: Jan 2, 2022
  */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
     .content-wrapper #Home #s1-titlecontent h1 {
         font-size: 15px;
         width: 400px;
@@ -23,14 +23,25 @@
     }
 }
 
+@media screen and (width: 630px) {
+    .content-wrapper #Home #s1-titlecontent h1 {
+        font-size: 30px;
+        width: 800px;
+    }
+    .content-wrapper #Home #s1-titlecontent #typer-background p {
+        font-size: 10px;
+        width: 400px;
+    }
+}
+
 @media screen and (max-width: 1050px) {
     .content-wrapper #Home #s1-titlecontent h1 {
         font-size: 60px;
         width: 800px;
     }
     .content-wrapper #Home #s1-titlecontent #typer-background p {
-        font-size: 15px;
-        width: 350px;
+        font-size: 20px;
+        width: 400px;
     }
 }
 
