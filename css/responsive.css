@@ -1,0 +1,57 @@
+
+@media screen and (max-width: 1080px) {
+    .section-skills #r2-contentright {
+        display: none;
+    }
+    
+    .section-skills #r2-contentleft {
+        position: relative;
+        left: 30vw;
+        /* padding-left: 65vw; */
+    }
+
+    #Skills #r2-contentleft ul li {
+        border: none;
+    }
+
+    .titlecontent p {
+        display: none;
+    }
+    .section-samples h1 {
+        padding-top: 5%;
+    }
+    .section-samples .row {
+        padding-top: 10%;
+    }
+
+    .section-samples img {
+        float: right;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #Contact .r6content {
+        padding-top: 100px;
+        padding-left:25px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .navbar .nav li {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 10px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .section-skills #r2-contentleft {
+        position: relative;
+        /* left: 30vw; */
+        padding-left: 35vw;
+    }
+
+    .resume-image {
+        width: 100%;
+    }
+}

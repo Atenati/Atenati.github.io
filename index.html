@@ -6,6 +6,7 @@
     <link href="css/bodystyles.css" rel="stylesheet">
     <link href="css/navstyles.css" rel="stylesheet">
     <link href="css/imagegrid.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
     <script src="js/emulatekey.js" async></script>
     <script src="js/typer.js" async></script>
@@ -17,8 +18,8 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <ul>
+        <nav class="nav navbar">
+            <ul class="nav">
                 <li><a href="#Home" id="btn1">Home</a></li>
                 <li><a href="#Skills" id="btn2">Skills</a></li>
                 <li><a href="#Work Samples" id="btn3">Work Samples</a></li>
@@ -31,14 +32,14 @@
     <div class="content-wrapper">
         <section class="section" id="Home">
             <section id="s1-titlecontent">
-                <h1>Atenati <br>Weber-Morrison</h1>
+                <h1 style="font-size:5vw;">Atenati <br>Weber-Morrison</h1>
                 <div id="typer-background">
-                    <p id="typer"></p>
+                    <p style="font-size:1.8vw;" id="typer"></p>
                 </div>
             </section>
         </section>
 
-        <section class="section" id="Skills">
+        <section class="section section-skills" id="Skills">
             <section class="titlecontent">
                 <h1>Skills</h1>
                 <p>What I can do for you</p>
@@ -49,7 +50,7 @@
                     <li onmouseover="hover_li_2()" onmouseout="off_li_2()">Java</li>
                     <li onmouseover="hover_li_3()" onmouseout="off_li_3()">HTML & CSS</li>
                     <li onmouseover="hover_li_4()" onmouseout="off_li_4()">Javascript</li>
-                    <li onmouseover="hover_li_5()" onmouseout="off_li_5()">Database</li>
+                    <li onmouseover="hover_li_5()" onmouseout="off_li_5()">SQL</li>
                 </ul>
             </div>
             <div id="r2-contentright">
@@ -72,29 +73,29 @@
                 <div class="row">
                     <div class="column">
                         <div class="content">
-                            <img src="images/asteroidwebsite.PNG" alt="Asteroids" style="width:100%">
+                            <img style="max-width:20vw;" src="images/asteroidwebsite.PNG" alt="Asteroids" style="width:100%">
                             <h3>NEO Website</h3>
                             <p>This is the asteroid website description</p>
                         </div>
                     </div>
                     <div class="column">
                         <div class="content">
-                            <img src="images/busmap.PNG" alt="BusMap" style="width:100%">
+                            <img style="max-width:20vw;" src="images/busmap.PNG" alt="BusMap" style="width:100%">
                             <h3>Halifax Bus Map</h3>
                             <p>This is halifax bus map description</p>
                         </div>
                     </div>
                     <div class="column">
                         <div class="content">
-                            <img src="images/java.PNG" alt="Java" style="width:100%">
-                            <h3>Java</h3>
+                            <img style="max-width:20vw;" src="images/java.PNG" alt="Java" style="width:100%">
+                            <h3>Java Game</h3>
                             <p>java description</p>
                         </div>
                     </div>
                     <div class="column">
                         <div class="content">
-                            <img src="images/python.PNG" alt="Python" style="width:100%">
-                            <h3>Python</h3>
+                            <img style="max-width:20vw;" src="images/python.PNG" alt="Python" style="width:100%">
+                            <h3>Python Subnet Calculator</h3>
                             <p>This is python description</p>
                         </div>
                     </div>
@@ -102,13 +103,13 @@
             </div>
         </section>
 
-        <section class="section" id="Resume">
+        <section class="section section-resume" id="Resume">
             <section class="titlecontent">
                 <h1 id="resume">Resume</h1>
                 <p>2550x3300!</p>
             </section>
             <div class="r5content">
-                <a href="images/resume.png" target="_blank"><img src="images/resume.png" alt="MissingTexture"></a>
+                <a href="images/resume.png" target="_blank"><img class="resume-image" src="images/resume.png" alt="MissingTexture"></a>
             </div>
         </section>
         <section class="section" id="Contact">
